@@ -1,0 +1,18 @@
+saitoushunsuke@saitoushunsukenoMacBook-Pro ~ % mkdir git_
+challenge
+saitoushunsuke@saitoushunsukenoMacBook-Pro ~ % cd git_cha
+llenge
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/saitoushunsuke/git_challenge/.git/
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git add hello_world.txt
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git commit -m "日本語訳を追記"
+[main (root-commit) 69324c3] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git add hello_world.txt
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git commit -m "hello_world.txtを追加"
+[main 21f47a8] hello_world.txtを追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+saitoushunsuke@saitoushunsukenoMacBook-Pro git_challenge % git log --oneline
+21f47a8 (HEAD -> main) hello_world.txtを追加
+69324c3 日本語訳を追記
